@@ -1,2 +1,13 @@
 INPUT = ../../gen/analysis/input
 OUTPUT = ../../gen/analysis/output
+
+all: $(INPUT)/df.pivot.csv $(OUTPUT)/plot.pdf $(OUTPUT)/plo_.all.pdf
+
+$(OUTPUT)/df.pivot.csv $(OUTPUT)
+	R --vanilla < plot.R
+  
+$(INPUT)
+	R --vanilla 
+
+$(OUTPUT)
+	R --vanilla 
