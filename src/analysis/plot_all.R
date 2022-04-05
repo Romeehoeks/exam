@@ -2,6 +2,8 @@
 ##### PLOT ALL #######
 ######################
 
+read.csv(file = "../../gen/dataprep/input/df_grouped.csv")
+
 df <- df_grouped
 
 # convert the `date` column into date format.
