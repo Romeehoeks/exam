@@ -21,3 +21,7 @@ dir.create('../../gen/analysis/output')
 dir.create('../../gen/dataprep')
 dir.create('../../gen/dataprep/input')
 dir.create('../../gen/dataprep/output')
+
+write.csv(listings "../../gen/dataprep/input/listings.csv", row.names = FALSE)
+write.csv(reviews, "../../gen/dataprep/input/reviews.csv", row.names = FALSE)
+
