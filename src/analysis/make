@@ -1,1 +1,2 @@
-
+INPUT = ../../gen/analysis/input
+OUTPUT = ../../gen/analysis/output
