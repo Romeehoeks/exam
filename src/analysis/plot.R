@@ -5,7 +5,8 @@
 # convert the `date` column into date format.
 df_pivot$date <- as.Date(df_pivot$date)
 
-pdf("plot.pdf")
+read.csv(file = '../../gen/analysis/input/df_pivot.csv')
+pdf("../../gen/analysis/output/plot.pdf")
 plot(x = df_pivot$date, 
      y = df_pivot$`Spandau Mitte`, 
      col = "red", 
