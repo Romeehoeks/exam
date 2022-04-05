@@ -4,8 +4,8 @@
 library(dplyr)
 library(reshape2)
 
-reviews <- read.csv("reviews.csv")
-listings <- read.csv("listings.csv")
+reviews <- read.csv("../../gen/dataprep/input/reviews.csv")
+listings <- read.csv("../../gen/dataprep/input/listings.csv")
 
 # convert date column
 reviews$date <- as.Date(reviews$date)
