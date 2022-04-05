@@ -29,3 +29,4 @@ df_grouped <- df_merged %>%
 # create date column
 df_grouped$date <- as.Date(paste0(df_grouped$year, "-", df_grouped$month, "-01"))
 
+write.csv(df_grouped, "../../gen/dataprep/input/df_grouped.csv", row.names = FALSE)
