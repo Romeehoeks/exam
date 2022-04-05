@@ -13,3 +13,11 @@ url_reviews <- "http://data.insideairbnb.com/germany/be/berlin/2021-09-21/visual
 
 download_data(url_listings, "listings")
 download_data(url_reviews, "reviews")
+
+dir.create('../../gen')
+dir.create('../../gen/analysis')
+dir.create('../../gen/analysis/input')
+dir.create('../../gen/analysis/output')
+dir.create('../../gen/dataprep')
+dir.create('../../gen/dataprep/input')
+dir.create('../../gen/dataprep/output')
